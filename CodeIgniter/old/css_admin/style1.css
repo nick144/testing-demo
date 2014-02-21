@@ -1,0 +1,163 @@
+/*----------------------------------------------------------------------*/
+/* 99CC33
+/*----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------*/
+/* bg/01.png http://ptrn.it/iglrOa
+/* bg/02.png http://ptrn.it/ldfM3q
+/* bg/03.png http://ptrn.it/jJseqP
+/* bg/04.png http://ptrn.it/mkP0FP
+/* bg/05.png http://ptrn.it/mntuwU
+/* bg/06.png http://ptrn.it/kj7OMC
+/* bg/07.png http://ptrn.it/l9Ehl8
+/* bg/08.png http://ptrn.it/lOwe5N
+/* bg/09.png http://ptrn.it/muLiXq
+/* bg/10.png http://ptrn.it/mjwbxK
+/* bg/11.png http://ptrn.it/kq6NGq
+/* bg/12.png http://ptrn.it/ilzOva
+/* bg/13.png http://ptrn.it/jNcpdS
+/* bg/14.png http://ptrn.it/iVpjzW
+/*----------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------------*/
+/* Widgets
+/*----------------------------------------------------------------------*/
+
+.widget{
+	margin-bottom:15px;
+	border:1px solid;
+	-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+}
+.widget > div{
+	margin:2px;
+	padding:15px 6px 2px;
+	border:1px solid;
+	-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+}
+.widget > div > img{
+	-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+}
+.widget > div.ui-widget{
+	width:99%;
+	padding:0;
+}
+.widget .ui-widget-header{
+	overflow:hidden;
+}
+.widget h3{
+	margin:0;
+}
+.widget:hover{
+	border:1px solid;
+}
+.widget.ui-sortable-helper{
+}
+.widget h3.handle{
+	position:relative;
+	font-size:14px !important;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	padding:8px 10px;
+	margin:0;
+	line-height:18px;
+	margin-bottom:1px;
+	cursor:pointer;
+	-webkit-border-top-left-radius:4px; -moz-border-radius-topleft:4px; border-top-left-radius:4px;
+	-webkit-border-top-right-radius:4px; -moz-border-radius-topright:4px; border-top-right-radius:4px;
+}
+.widget.sortable h3.handle{
+	cursor:move;
+}
+.widget h3.handle:hover{
+}
+.widget h3.handle.red{
+}
+.widget h3.handle.green{
+}
+.widget h3.handle.blue{
+}
+.widget h3.handle.yellow{
+}
+.widget h3.handle .collapse, .widget h3.handle .reload{
+	position:absolute;
+	right:8px;
+	top:5px;
+	display:block;
+	height:24px;
+	width:24px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:none;
+}
+.widget h3.handle .reload{
+	right:30px;
+}
+.widget h3.handle a:first-child{
+	right:8px;
+}
+.widget:hover h3.handle .collapse, .widget.loading h3.handle .reload, .widget:hover h3.handle .reload{
+	display:block;
+}
+.widget h3.handle .collapse{
+}
+.widget h3.handle .icon{
+	margin-top:-3px;
+	margin-left:-4px;
+	height:24px;
+	width:24px;
+	display:inline-block;
+	float:left;
+	background-position:center;
+}
+.widget.collapsed{
+	border-bottom:1px solid;
+}
+.widget.collapsed h3.handle{
+	border-bottom:0;
+	-webkit-border-bottom-right-radius:4px; -moz-border-radius-bottomright:4px; border-bottom-right-radius:4px;
+}
+.widget.collapsed h3.handle .collapse{
+}
+
+.widget.number-widget > div ul{
+	overflow:auto;
+}
+.widget.number-widget > div ul li{
+	display:block;
+	margin:0;
+	list-style:none;
+	border-top:1px dotted;
+	padding:14px 10px 4px;
+	margin:0;
+}
+.widget.number-widget > div ul li:first-child{
+	border-top:0;
+}
+.widget.number-widget > div ul li a{
+	font-size:12px;
+	display:block;
+}
+.widget.number-widget > div ul li a:hover{
+	text-decoration:none;
+}
+.widget.number-widget ul li a span{
+	text-align:right;
+	display:inline-block;
+	width:80px;
+	font-size:32px;
+	font-weight:700;
+	letter-spacing:-0.05em;
+	padding:2px 6px 2px 0;
+}
+
+.sortable_placeholder{
+	margin-bottom:15px;
+	border:1px solid;
+	z-index:1;
+	-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+}
+
+
